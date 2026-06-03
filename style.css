@@ -67,39 +67,63 @@ body {
   transition: background 0.3s ease;
 }
 
-/* ===== THEME TOGGLE ===== */
-.theme-toggle {
+/* ===== CONTROLS (theme + lang) ===== */
+.controls {
   position: fixed;
   top: 20px;
   right: 20px;
   z-index: 100;
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
+  display: flex;
+  gap: 8px;
+}
+
+.lang-switch, .theme-toggle {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
   background: var(--surface);
   border: 2px solid var(--border);
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.3rem;
   transition: all 0.2s ease;
   box-shadow: var(--shadow);
   backdrop-filter: blur(8px);
 }
 
-.theme-toggle:hover {
+.lang-switch {
+  gap: 4px;
+}
+
+.lang-switch:hover, .theme-toggle:hover {
   border-color: var(--accent);
   transform: scale(1.05);
   box-shadow: 0 4px 16px rgba(45,212,191,0.2);
 }
 
-.theme-toggle:active {
+.lang-switch:active, .theme-toggle:active {
   transform: scale(0.95);
 }
 
+[data-theme="light"] .lang-switch,
 [data-theme="light"] .theme-toggle {
   border-color: var(--primary);
+}
+
+.lang-flag {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.lang-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
+.theme-icon {
+  font-size: 1.2rem;
 }
 
 /* ===== SHELL ===== */

@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="it" data-theme="dark">
+<html lang="it" data-theme="dark" data-lang="it">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -13,32 +13,38 @@
 <body>
   <div class="bg-accent"></div>
 
-  <button class="theme-toggle" id="themeToggle" aria-label="Cambia tema">
-    <span class="theme-icon" id="themeIcon">☀️</span>
-  </button>
+  <div class="controls">
+    <button class="lang-switch" id="langSwitch" aria-label="Cambia lingua">
+      <span class="lang-flag" id="langFlag">🇮🇹</span>
+      <span class="lang-label" id="langLabel">IT</span>
+    </button>
+    <button class="theme-toggle" id="themeToggle" aria-label="Cambia tema">
+      <span class="theme-icon" id="themeIcon">☀️</span>
+    </button>
+  </div>
 
   <main class="shell">
 
     <section class="hero">
       <img src="assets/file_56---1a1cdfc0-06ef-4321-a007-48d08313dec7.jpg" alt="Laura Hoyos" class="hero-photo" />
       <div class="badge-row">
-        <span class="badge">Ottica · Optometria</span>
-        <span class="badge accent">Terzo anno · Milano / Madrid</span>
+        <span class="badge" data-i18n="badge">Ottica · Optometria</span>
+        <span class="badge accent" data-i18n="badge2">Terzo anno · Milano / Madrid</span>
       </div>
-      <h1 id="title">Ciao, sono <span>Laura</span></h1>
-      <p class="intro">
+      <h1 id="title" data-i18n="hero-title">Ciao, sono <span>Laura</span></h1>
+      <p class="intro" data-i18n="hero-intro">
         Studentessa di Ottica e Optometria al terzo anno.
         Attualmente a <strong>Madrid</strong> per tirocinio in MultiOpticas e Ospedale Infanta Leonor.
         Obiettivo: fare il <strong>master in clinica ospedaliera</strong> a Madrid e aprire una clinica.
       </p>
       <div class="actions">
-        <a href="#contatto" class="button primary">Contattami</a>
-        <a href="#progetti" class="button">Il mio progetto</a>
+        <a href="#contatto" class="button primary" data-i18n="cta-contact">Contattami</a>
+        <a href="#progetti" class="button" data-i18n="cta-project">Il mio progetto</a>
       </div>
     </section>
 
     <section class="gallery-section">
-      <h2>Foto</h2>
+      <h2 data-i18n="gallery-title">Foto</h2>
       <div class="gallery">
         <div class="gallery-item">
           <img src="assets/file_56---1a1cdfc0-06ef-4321-a007-48d08313dec7.jpg" alt="Laura 1" />
@@ -55,52 +61,52 @@
     <section class="card-grid" id="chi-sono" aria-label="Chi sono">
       <article class="card">
         <span class="icon">👁️</span>
-        <h2>Optometrista</h2>
-        <p>Esperienza in esami della vista, fitting di lenti a contatto, consulenza e correzione visiva. Formazione pratica in corso.</p>
+        <h2 data-i18n="card1-title">Optometrista</h2>
+        <p data-i18n="card1-desc">Esperienza in esami della vista, fitting di lenti a contatto, consulenza e correzione visiva. Formazione pratica in corso.</p>
       </article>
       <article class="card">
         <span class="icon">🏥</span>
-        <h2>Tirocinio attuale</h2>
-        <p>MultiOpticas + Ospedale Infanta Leonor, Madrid. Formazione clinica sul campo in ambiente ospedaliero.</p>
+        <h2 data-i18n="card2-title">Tirocinio attuale</h2>
+        <p data-i18n="card2-desc">MultiOpticas + Ospedale Infanta Leonor, Madrid. Formazione clinica sul campo in ambiente ospedaliero.</p>
       </article>
       <article class="card">
         <span class="icon">🎓</span>
-        <h2>Studi</h2>
-        <p>Università Bicocca (Milano) e Complutense (Madrid). Master in clinica ospedaliera a Madrid: questo è l'obiettivo.</p>
+        <h2 data-i18n="card3-title">Studi</h2>
+        <p data-i18n="card3-desc">Università Bicocca (Milano) e Complutense (Madrid). Master in clinica ospedaliera a Madrid: questo è l'obiettivo.</p>
       </article>
     </section>
 
     <section class="split-section" id="progetti" aria-labelledby="progetti-title">
       <div class="split-text">
-        <p class="eyebrow">Il mio progetto</p>
-        <h2 id="progetti-title">La clinica dei miei sogni</h2>
-        <p>
+        <p class="eyebrow" data-i18n="project-eyebrow">Il mio progetto</p>
+        <h2 id="progetti-title" data-i18n="project-title">La clinica dei miei sogni</h2>
+        <p data-i18n="project-p1">
           Immagina un luogo dove l'optometria incontra la tecnologia, dove ogni paziente viene seguito con attenzione e professionalità.
           Dove non siamo solo un negozio di occhiali, ma un centro di salute visiva completo.
         </p>
-        <p>
+        <p data-i18n="project-p2">
           Questo è il mio obiettivo. Non solo vendere lenti — fare la differenza nella vita delle persone attraverso la cura della vista.
         </p>
         <ul class="feature-list">
-          <li>✅ Esami della vista completi e moderni</li>
-          <li>✅ Lenti a contatto di ultima generazione</li>
-          <li>✅ Tecnologie avanzate per la diagnosi</li>
-          <li>✅ Un team appassionato e preparato</li>
-          <li>✅ Un ambiente accogliente e professionale</li>
+          <li data-i18n="feat1">✅ Esami della vista completi e moderni</li>
+          <li data-i18n="feat2">✅ Lenti a contatto di ultima generazione</li>
+          <li data-i18n="feat3">✅ Tecnologie avanzate per la diagnosi</li>
+          <li data-i18n="feat4">✅ Un team appassionato e preparato</li>
+          <li data-i18n="feat5">✅ Un ambiente accogliente e professionale</li>
         </ul>
       </div>
       <div class="split-cta">
         <div class="cta-box">
-          <h3>Cerco collaboratori e opportunità</h3>
-          <p>Se stai cercando un'optometrista motivata, o se vuoi essere parte di questo progetto, parliamo.</p>
-          <a href="#contatto" class="button primary">Mettiti in contatto</a>
+          <h3 data-i18n="cta-title">Cerco collaboratori e opportunità</h3>
+          <p data-i18n="cta-desc">Se stai cercando un'optometrista motivata, o se vuoi essere parte di questo progetto, parliamo.</p>
+          <a href="#contatto" class="button primary" data-i18n="cta-box-btn">Mettiti in contatto</a>
         </div>
       </div>
     </section>
 
     <section class="panel" id="contatto" aria-labelledby="contatto-title">
-      <h2 id="contatto-title">Parliamo</h2>
-      <p>
+      <h2 id="contatto-title" data-i18n="contact-title">Parliamo</h2>
+      <p data-i18n="contact-intro">
         Se stai cercando un'optometrista, vuoi collaborare o semplicemente vuoi salutare — sono qui.
       </p>
       <div class="contact-links">
