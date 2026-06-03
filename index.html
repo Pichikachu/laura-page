@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="it">
+<html lang="it" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,11 +7,16 @@
   <title>Laura — Ottica Optometria Milano</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="bg-accent"></div>
+
+  <button class="theme-toggle" id="themeToggle" aria-label="Cambia tema">
+    <span class="theme-icon" id="themeIcon">🌙</span>
+  </button>
+
   <main class="shell">
 
     <section class="hero">
@@ -127,5 +132,7 @@
   <footer>
     <p>Laura — Ottica e Optometria · Milano</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
