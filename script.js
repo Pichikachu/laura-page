@@ -3,9 +3,7 @@ const translations = {
     badge: 'Ottica · Optometria',
     badge2: 'Terzo anno · Milano / Madrid',
     'hero-title': 'Ciao, sono <span>Laura</span>',
-    'hero-intro': `Studentessa di Ottica e Optometria al terzo anno.
-Attualmente a <strong>Madrid</strong> per tirocinio in MultiOpticas e Ospedale Infanta Leonor.
-Obiettivo: fare il <strong>master in clinica ospedaliera</strong> a Madrid e aprire una clinica.`,
+    'hero-intro': "Studentessa di Ottica e Optometria al terzo anno. Attualmente a <strong>Madrid</strong> per tirocinio in MultiOpticas e Ospedale Infanta Leonor. Obiettivo: fare il <strong>master in clinica ospedaliera</strong> a Madrid e aprire una clinica.",
     'cta-contact': 'Contattami',
     'cta-project': 'Il mio progetto',
     'gallery-title': 'Foto',
@@ -14,18 +12,18 @@ Obiettivo: fare il <strong>master in clinica ospedaliera</strong> a Madrid e apr
     'card2-title': 'Tirocinio attuale',
     'card2-desc': 'MultiOpticas + Ospedale Infanta Leonor, Madrid. Formazione clinica sul campo in ambiente ospedaliero.',
     'card3-title': 'Studi',
-    'card3-desc': 'Università Bicocca (Milano) e Complutense (Madrid). Master in clinica ospedaliera a Madrid: questo è l\'obiettivo.',
+    'card3-desc': "Università Bicocca (Milano) e Complutense (Madrid). Master in clinica ospedaliera a Madrid: questo è l'obiettivo.",
     'project-eyebrow': 'Il mio progetto',
     'project-title': 'La clinica dei miei sogni',
-    'project-p1': 'Immagina un luogo dove l\'optometria incontra la tecnologia, dove ogni paziente viene seguito con attenzione e professionalità. Dove non siamo solo un negozio di occhiali, ma un centro di salute visiva completo.',
-    'project-p2': 'Questo è il mio obiettivo. Non solo vendere lenti — fare la differenza nella vita delle persone attraverso la cura della vista.',
+    'project-p1': "Immagina un luogo dove l'optometria incontra la tecnologia, dove ogni paziente viene seguito con attenzione e professionalità. Dove non siamo solo un negozio di occhiali, ma un centro di salute visiva completo.",
+    'project-p2': "Questo è il mio obiettivo. Non solo vendere lenti — fare la differenza nella vita delle persone attraverso la cura della vista.",
     'feat1': '✅ Esami della vista completi e moderni',
     'feat2': '✅ Lenti a contatto di ultima generazione',
     'feat3': '✅ Tecnologie avanzate per la diagnosi',
     'feat4': '✅ Un team appassionato e preparato',
     'feat5': '✅ Un ambiente accogliente e professionale',
     'cta-title': 'Cerco collaboratori e opportunità',
-    'cta-desc': 'Se stai cercando un\'optometrista motivata, o se vuoi essere parte di questo progetto, parliamo.',
+    'cta-desc': "Se stai cercando un'optometrista motivata, o se vuoi essere parte di questo progetto, parliamo.",
     'cta-box-btn': 'Mettiti in contatto',
     'contact-title': 'Parliamo',
     'contact-intro': 'Se stai cercando un\'optometrista, vuoi collaborare o semplicemente vuoi salutare — sono qui.',
@@ -37,9 +35,7 @@ Obiettivo: fare il <strong>master in clinica ospedaliera</strong> a Madrid e apr
     badge: 'Optics · Optometry',
     badge2: 'Third year · Milan / Madrid',
     'hero-title': 'Hi, I\'m <span>Laura</span>',
-    'hero-intro': `Third-year Optics and Optometry student.
-Currently in <strong>Madrid</strong> for an internship at MultiOpticas and Hospital Infanta Leonor.
-Goal: pursue a <strong>master\\'s in clinical optometry</strong> in Madrid and open my own clinic.`,
+    'hero-intro': "Third-year Optics and Optometry student. Currently in <strong>Madrid</strong> for an internship at MultiOpticas and Hospital Infanta Leonor. Goal: pursue a <strong>master's in clinical optometry</strong> in Madrid and open my own clinic.",
     'cta-contact': 'Contact me',
     'cta-project': 'My project',
     'gallery-title': 'Photos',
@@ -48,21 +44,21 @@ Goal: pursue a <strong>master\\'s in clinical optometry</strong> in Madrid and o
     'card2-title': 'Current Internship',
     'card2-desc': 'MultiOpticas + Hospital Infanta Leonor, Madrid. Clinical training in a hospital setting.',
     'card3-title': 'Education',
-    'card3-desc': 'University of Bicocca (Milan) and Complutense (Madrid). Master\\'s in clinical optometry in Madrid is the goal.',
+    'card3-desc': "University of Bicocca (Milan) and Complutense (Madrid). Master's in clinical optometry in Madrid is the goal.",
     'project-eyebrow': 'My project',
     'project-title': 'The clinic of my dreams',
-    'project-p1': 'Imagine a place where optometry meets technology, where every patient is cared for with attention and professionalism. Where we\\'re not just an eyewear shop, but a complete vision health center.',
-    'project-p2': 'This is my goal. Not just selling lenses — making a difference in people\\'s lives through vision care.',
+    'project-p1': "Imagine a place where optometry meets technology, where every patient is cared for with attention and professionalism. Where we're not just an eyewear shop, but a complete vision health center.",
+    'project-p2': "This is my goal. Not just selling lenses — making a difference in people's lives through vision care.",
     'feat1': '✅ Complete and modern eye exams',
     'feat2': '✅ State-of-the-art contact lenses',
     'feat3': '✅ Advanced diagnostic technology',
     'feat4': '✅ A passionate and skilled team',
     'feat5': '✅ A welcoming and professional environment',
     'cta-title': 'Looking for collaborators and opportunities',
-    'cta-desc': 'If you\\'re looking for a motivated optometrist, or want to be part of this project, let\\'s talk.',
+    'cta-desc': "If you're looking for a motivated optometrist, or want to be part of this project, let's talk.",
     'cta-box-btn': 'Get in touch',
-    'contact-title': 'Let\\'s talk',
-    'contact-intro': 'If you\\'re looking for an optometrist, want to collaborate, or just want to say hi — I\\'m here.',
+    'contact-title': "Let's talk",
+    'contact-intro': "If you're looking for an optometrist, want to collaborate, or just want to say hi — I'm here.",
     'footer': 'Laura Hoyos — Optics and Optometry · Milan / Madrid',
     lang: 'EN',
     flag: '🇬🇧'
@@ -71,9 +67,7 @@ Goal: pursue a <strong>master\\'s in clinical optometry</strong> in Madrid and o
     badge: 'Óptica · Optometría',
     badge2: 'Tercer año · Milán / Madrid',
     'hero-title': 'Hola, soy <span>Laura</span>',
-    'hero-intro': `Estudiante de Óptica y Optometría de tercer año.
-Actualmente en <strong>Madrid</strong> realizando prácticas en MultiOpticas y Hospital Infanta Leonor.
-Objetivo: hacer el <strong>máster en optometría clínica</strong> en Madrid y abrir mi propia clínica.`,
+    'hero-intro': "Estudiante de Óptica y Optometría de tercer año. Actualmente en <strong>Madrid</strong> realizando prácticas en MultiOpticas y Hospital Infanta Leonor. Objetivo: hacer el <strong>máster en optometría clínica</strong> en Madrid y abrir mi propia clínica.",
     'cta-contact': 'Contáctame',
     'cta-project': 'Mi proyecto',
     'gallery-title': 'Fotos',
@@ -125,43 +119,39 @@ function setLang(lang) {
   langLabel.textContent = t.lang;
   localStorage.setItem('laura-lang', lang);
 
-  document.querySelectorAll('[data-i18n]').forEach(el => {
-    const key = el.getAttribute('data-i18n');
+  document.querySelectorAll('[data-i18n]').forEach(function(el) {
+    var key = el.getAttribute('data-i18n');
     if (t[key]) {
-      if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-        el.placeholder = t[key];
-      } else {
-        el.innerHTML = t[key];
-      }
+      el.innerHTML = t[key];
     }
   });
 
-  const footer = document.querySelector('footer p');
+  var footer = document.querySelector('footer p');
   if (footer) footer.textContent = t.footer;
 }
 
 function cycleLang() {
-  const current = html.getAttribute('data-lang') || 'it';
-  const idx = langCycle.indexOf(current);
-  const next = langCycle[(idx + 1) % langCycle.length];
+  var current = html.getAttribute('data-lang') || 'it';
+  var idx = langCycle.indexOf(current);
+  var next = langCycle[(idx + 1) % langCycle.length];
   setLang(next);
 }
 
 // Theme
 function applySystemTheme() {
   if (localStorage.getItem('laura-theme')) return;
-  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
   setTheme(prefersDark ? 'dark' : 'light');
 }
 
-window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
   if (!localStorage.getItem('laura-theme')) {
     setTheme(e.matches ? 'dark' : 'light');
   }
 });
 
-themeToggle.addEventListener('click', () => {
-  const current = html.getAttribute('data-theme');
+themeToggle.addEventListener('click', function() {
+  var current = html.getAttribute('data-theme');
   setTheme(current === 'dark' ? 'light' : 'dark');
 });
 
