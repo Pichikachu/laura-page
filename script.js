@@ -4,7 +4,7 @@ const html = document.documentElement;
 
 function setTheme(theme) {
   html.setAttribute('data-theme', theme);
-  icon.textContent = theme === 'dark' ? '🌙' : '☀️';
+  icon.textContent = theme === 'dark' ? '☀️' : '🌙';
   localStorage.setItem('laura-theme', theme);
 }
 
